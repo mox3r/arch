@@ -41,7 +41,8 @@
   "custom/updates": {
     "interval": 600,
     "exec": "checkupdates-with-aur | wc -l",
-    "on-click": "checkupdates-with-aur | wc -l"
+    "on-click": "checkupdates-with-aur | wc -l",
+    "on-click-right": "l4m-dotfiles/scripts/updater.sh"
 
   },
 
